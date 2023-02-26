@@ -1,2 +1,6 @@
 # Unity-URP-Shaders
-Controlador de versiones de shaders creados a partir de Shader Graph para uso en URP
+Unity Project made for Shaders created with Shader Graph for Unity URP
+
+This shaders are created for games optimization in Unity \^o^/
+
+This project includes visual effects and animations
