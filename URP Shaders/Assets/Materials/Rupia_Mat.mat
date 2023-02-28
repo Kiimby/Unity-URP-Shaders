@@ -20,6 +20,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Albedo_Map:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Ambient_Occlusion_Map:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -58,15 +62,22 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Equilibrio_Altura: 0
+    - _Altura_al_Azar: 0
+    - _Apha_Clip: 0
+    - _Equilibrio_Altura: 1
+    - _Fuerza_Emission: 0
     - _Fuerza_Metallic: 0
     - _Fuerza_Movimiento: 0.5
     - _Fuerza_Normal: 0
+    - _Fuerza_Smoothness: 0
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _Rotaci_n_Movimiento: 0.5
+    - _Valor_al_Azar: 0.6
     - _Velocidad_Movimiento: 1
     m_Colors:
     - _Color: {r: 0.33520922, g: 0.6037736, b: 0.13955145, a: 0}
+    - _Eje_de_rotaci_n: {r: 0, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &7381142995786846619
 MonoBehaviour:
