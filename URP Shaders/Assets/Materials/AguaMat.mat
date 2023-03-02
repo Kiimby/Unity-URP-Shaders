@@ -52,15 +52,15 @@ Material:
     m_Ints: []
     m_Floats:
     - _Cantidad_de_Espuma: 0.53
-    - _Corte_de_espuma: 1
+    - _Corte_de_espuma: 1.27
     - _Escala_de_Espuma: 30
-    - _Escala_de_Refracci_n: 2
+    - _Escala_de_Refracci_n: 1.5
     - _Fuerza_de_Refracci_n: 2
     - _Profundidad_Agua: 5
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Velocidad_de_Refracci_n: 0.05
-    - _Velocidad_de_espuma: 0.45
+    - _Velocidad_de_espuma: 0.3
     m_Colors:
     - _Color_de_Espuma: {r: 1, g: 1, b: 1, a: 0.44705883}
     - _Profundidad_del_Agua: {r: 0.16665182, g: 0.1754916, b: 0.33018863, a: 0.48235294}
