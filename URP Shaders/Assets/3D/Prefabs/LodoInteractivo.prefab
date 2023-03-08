@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 471050175139565555}
   - component: {fileID: 6476490069673458307}
   - component: {fileID: 4680707852720149188}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: CamTexturaLodo
   m_TagString: Untagged
   m_Icon: {fileID: 0}

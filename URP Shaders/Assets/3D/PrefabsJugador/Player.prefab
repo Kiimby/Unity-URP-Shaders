@@ -282,7 +282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mouseSensitivity: 100
-  playerB: {fileID: 6765485255598993277}
+  playerB: {fileID: 6765485255937377428}
 --- !u!1 &6765485255348294887
 GameObject:
   m_ObjectHideFlags: 0
@@ -621,5 +621,5 @@ MonoBehaviour:
   groundCheck: {fileID: 6765485255621862666}
   groundMask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 128
   isGrounded: 0
