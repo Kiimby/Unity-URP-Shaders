@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1619244375671119229
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Nieve_Mat
+  m_Shader: {fileID: -6465566751694194690, guid: 9a37f9d93ae3c974386bcb0f10630b7a, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo_Nieve:
+        m_Texture: {fileID: 2800000, guid: c1417f8d736039540a653c9d014061b4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Albedo_Objeto:
+        m_Texture: {fileID: 2800000, guid: 702a78287ea1cfd4189562d40b8c86b0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emission_de_Objeto:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emmission_de_Nieve:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Metallic_Nieve:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Metallic_Objeto:
+        m_Texture: {fileID: 2800000, guid: 27629aff74efbe14eb969bb7df28af06, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal_Nieve:
+        m_Texture: {fileID: 2800000, guid: 2a7d1f7e4cd4a2b48afb488649a47452, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal_Objeto:
+        m_Texture: {fileID: 2800000, guid: d5a3c3d578b35dd459e61d4477c11338, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Smoothness_Nieve:
+        m_Texture: {fileID: 2800000, guid: 27c9353b91c7b1c4a886fe0bc2aa2a51, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Smoothness_Objeto:
+        m_Texture: {fileID: 2800000, guid: 354a3c47025b0e842a22cf2c2d587a43, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Contraste: 0.5
+    - _Fuerza_Metallic_Nieve: 0
+    - _Fuerza_Metallic_Objeto: 0
+    - _Fuerza_Normal_Nieve: 1
+    - _Fuerza_Normal_Objeto: 1
+    - _Fuerza_Smoothness_Nieve: 0
+    - _Fuerza_Smoothness_Objeto: 0
+    - _Fuerza_de_Emission_de_Nieve: 0
+    - _Fuerza_de_Emission_de_Objeto: 0
+    - _Nivel_de_Intensidad: 0.8
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Valor_Vertical: 0.4
+    m_Colors:
+    - _Color_de_Emission: {r: 1, g: 1, b: 1, a: 0}
+    - _Color_de_Emission_en_Nieve: {r: 0, g: 0, b: 0, a: 0}
+    - _Color_de_Emission_en_Objeto: {r: 0, g: 0, b: 0, a: 0}
+    - _NieveOffset: {r: 0.5, g: 4, b: 0.5, a: 0}
+  m_BuildTextureStacks: []
