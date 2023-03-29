@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2325391889497706711
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LavaMat
+  m_Shader: {fileID: -6465566751694194690, guid: 2cdec47655675a94580e5a89dc41fcf6, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Emission_Map:
+        m_Texture: {fileID: 2800000, guid: 38ec7c206a83f4a4f9b6954d08dde910, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Lava_Albedo_map:
+        m_Texture: {fileID: 2800000, guid: ff7f7e490c88899428c787618f12b7b7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Lava_Emission_Map:
+        m_Texture: {fileID: 2800000, guid: 38ec7c206a83f4a4f9b6954d08dde910, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Lava_Normal_map:
+        m_Texture: {fileID: 2800000, guid: f3fd58baaebd72b45ad47ced6a363cdc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Cantidad_Disoluci_n: 4
+    - _Cantidad_Distorsi_n: 0.042
+    - _Distorsi_n_ngulo: 0.412
+    - _Escala_Disoluci_n: 20
+    - _Escala_Distorsi_n: 8
+    - _Fuerza_Emisi_n: 0
+    - _Fuerza_Fondo: 0.94
+    - _Fuerza_Luz: 85.92
+    - _Fuerza_Metallic: 0
+    - _Fuerza_Smoothness: 0
+    - _Poder_Disoluci_n: -0.12
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    m_Colors:
+    - _Color_Emission: {r: 4.288474, g: 2.360463, b: 1.6397108, a: 1}
+    - _Color_Luz: {r: 1.1353015, g: 0.07132784, b: 0.14265569, a: 1}
+    - _Escala_Lava: {r: 1, g: 1, b: 0, a: 0}
+    - _Lava_Color: {r: 22.176853, g: 5.7900157, b: 0.10924558, a: 1}
+    - _Lava_Remap: {r: 0.65, g: 1, b: 0.49, a: 0}
+    - _Lava_remap: {r: 0, g: 2, b: 0, a: 0}
+    - _Remapeo_Fondo: {r: 0, g: 0.31, b: 0, a: 0}
+    - _Velocidad: {r: 0, g: 0.006, b: 0, a: 0}
+    - _Velocidad_Disoluci_n: {r: 0, g: 0.02, b: 0, a: 0}
+    - _Velocidad_Distorsi_n: {r: 0, g: 0.02, b: 0, a: 0}
+    - _Velocidad_Lava: {r: 0, g: 0.1, b: 0, a: 0}
+    - _Velocidad_Lava_Normal: {r: 0, g: 0.004, b: 0, a: 0}
+  m_BuildTextureStacks: []
