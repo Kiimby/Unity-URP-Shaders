@@ -63,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3bd32ddbf0f058443a79c0975a7c65f0, type: 2}
+  - {fileID: 2100000, guid: e77790420d7667344afb8904a42b69a9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -108,7 +108,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5193478506169506443}
   - component: {fileID: 2546799506427803638}
-  - component: {fileID: 648781716110746721}
   - component: {fileID: 7985660819580446047}
   m_Layer: 0
   m_Name: CamTexturasArena
@@ -175,14 +174,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &648781716110746721
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2723641901824351923}
-  m_Enabled: 1
 --- !u!114 &7985660819580446047
 MonoBehaviour:
   m_ObjectHideFlags: 0

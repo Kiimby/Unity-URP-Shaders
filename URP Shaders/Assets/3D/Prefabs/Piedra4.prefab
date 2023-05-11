@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1190927683819291280}
   - component: {fileID: 2821749251371257141}
   - component: {fileID: 57467862983752191}
+  - component: {fileID: 8595888178900959176}
   m_Layer: 0
   m_Name: Piedra4
   m_TagString: Untagged
@@ -61,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 366a9a6d80c63044cb81717793ede74f, type: 2}
+  - {fileID: 2100000, guid: b557355d6634cb548a3dc37f8e27951f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -83,3 +84,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8595888178900959176
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003212087438481450}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6433128827303214681, guid: a38734b3d88331c49a4236c55a447b1d, type: 3}

@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 6381647988504795030}
   - component: {fileID: 8016390423044233267}
   - component: {fileID: 5249798398021070073}
+  - component: {fileID: 8891806766125680100}
+  - component: {fileID: 4708505603229911474}
+  - component: {fileID: 7160601926530836443}
   m_Layer: 0
   m_Name: Puente
   m_TagString: Untagged
@@ -83,3 +86,42 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8891806766125680100
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6042700007492701484}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.05, y: 19.969555, z: 0.20788348}
+  m_Center: {x: 0.026730537, y: -0.048417218, z: -0.108612545}
+--- !u!65 &4708505603229911474
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6042700007492701484}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.8906305, y: 19.969555, z: 0.7592492}
+  m_Center: {x: 3.506225, y: -0.048417218, z: 0.16707036}
+--- !u!65 &7160601926530836443
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6042700007492701484}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.8906305, y: 19.969555, z: 0.7592492}
+  m_Center: {x: -3.506225, y: -0.048417218, z: 0.16707036}

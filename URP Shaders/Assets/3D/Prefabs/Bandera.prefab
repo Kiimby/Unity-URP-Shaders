@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 7989665293931388165}
   - component: {fileID: 6435403992263758496}
   - component: {fileID: 9127620638781204074}
+  - component: {fileID: 8858954029319042302}
+  - component: {fileID: 1488192253498723641}
   m_Layer: 0
   m_Name: Bandera
   m_TagString: Untagged
@@ -84,3 +86,29 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8858954029319042302
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7326000811836458943}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.027856417, y: 3.6593986, z: 0.2265409}
+  m_Center: {x: 0.08987714, y: 0.24876809, z: -0.0073542385}
+--- !u!65 &1488192253498723641
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7326000811836458943}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.20615685, y: 1.3698308, z: 2.0226774}
+  m_Center: {x: 0.00073303026, y: 1.393552, z: -0.9054216}

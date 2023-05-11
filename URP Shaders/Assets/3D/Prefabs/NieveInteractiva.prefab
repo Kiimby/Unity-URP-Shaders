@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2835622885089648710}
   - component: {fileID: 7570333171888877811}
-  - component: {fileID: 7194879156297693909}
   - component: {fileID: 7506608130426662092}
   m_Layer: 0
   m_Name: CamTexturaNieve
@@ -77,14 +76,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &7194879156297693909
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2645409904966454598}
-  m_Enabled: 1
 --- !u!114 &7506608130426662092
 MonoBehaviour:
   m_ObjectHideFlags: 0
