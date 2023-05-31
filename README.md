@@ -1,6 +1,5 @@
 # Unity-URP-Shaders
-Unity Project made for Shaders created with Shader Graph for Unity URP
+Proyecto en Unity para la creación de shader de optimización para juegos
 
-This shaders are created for games optimization in Unity \^o^/
-
-This project includes visual effects and animations that can be modified from material parameters
+Este proyecto incluyé efectos visuales y animaciones que se pueden modificar desde los parametros del material
+para así crear nuevos shaders y variaciones
