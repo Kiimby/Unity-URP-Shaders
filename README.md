@@ -1,5 +1,5 @@
 # Unity URP Shaders
-Proyecto en Unity para la creación de shader de optimización para juegos.
+Proyecto en Unity para la creación de shaders de optimización para juegos.
 
 Este proyecto incluyé efectos visuales y animaciones que se pueden modificar desde los parametros del material
 para así crear nuevos shaders y variaciones, así como una escena de prueba con modelos que dejo a libre uso.
