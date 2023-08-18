@@ -138,7 +138,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2172014
 Transform:
   m_ObjectHideFlags: 0
@@ -172,7 +172,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &132042199
 Transform:
   m_ObjectHideFlags: 0
@@ -1125,7 +1125,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &721183300
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1198,7 +1198,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 721183299}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.215, y: -0.2777474, z: 0.40292042}
+  m_LocalPosition: {x: -2.215, y: -0.174, z: 0.40292042}
   m_LocalScale: {x: 1.72, y: 2.06, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1701,7 +1701,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &1128125614
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2158,7 +2158,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6502650000379041749, guid: 0f8d475ce6383aa4ba22c93c75368e63, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9197577878719490770, guid: 0f8d475ce6383aa4ba22c93c75368e63, type: 3}
       propertyPath: m_Center.y
@@ -2504,6 +2504,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1636510443}
     m_Modifications:
+    - target: {fileID: 290609670010314998, guid: a563c352a932aa24fa39358264f6f292, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 070a99709a063fb469d1595c197178f8, type: 2}
     - target: {fileID: 1460115330295520153, guid: a563c352a932aa24fa39358264f6f292, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -3467,6 +3471,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bandera
       objectReference: {fileID: 0}
+    - target: {fileID: 7326000811836458943, guid: 5d436640b9c585f46b6ca11931891b5e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7989665293931388165, guid: 5d436640b9c585f46b6ca11931891b5e, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -3701,7 +3709,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8801802726534916502, guid: 710bf1d26cd711b45923399bbbaf4490, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 710bf1d26cd711b45923399bbbaf4490, type: 3}
